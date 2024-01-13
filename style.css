@@ -84,3 +84,21 @@
       color: #fff;
       transition: all 0.3s ease-in-out;
     }
+    .content button:hover,i:hover{
+      background: #544230;
+    }
+    .content .social_icons{
+      display: flex;
+      justify-content: space-between;
+      width: 50%;
+      font-size: 1.9rem;
+      cursor: pointer;;
+      margin-top: 2rem;
+    }
+    .content .social_icons i{
+      padding: 0.6rem;
+      color: #fff;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      transition: all 0.5s ease-in-out;
+    }
